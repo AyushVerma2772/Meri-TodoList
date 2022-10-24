@@ -22,7 +22,7 @@ const Navbar = ({ user }) => {
         <>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to='/'>Meri TodoList 2.0</Link>
+                    <Link className="navbar-brand" to='/' >Meri TodoList 2.0</Link>
                     <div className='d-flex align-items-center' >
                         {user && <img src={user.photoURL} alt="profile" style={{ height: '40px', width: '40px', borderRadius: '50%' }} className='image-fluid' />}
 
